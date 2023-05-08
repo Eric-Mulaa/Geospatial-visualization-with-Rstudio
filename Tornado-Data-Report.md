@@ -4,8 +4,6 @@ EricMulaa
 2023-05-07
 
 ``` r
-main <- "C:/Users/Admin/OneDrive/Documents/Gthub_Projects/R-Programming/data/"
-setwd(main)
 tornado <- read.table(file = "us_tornado_dataset.csv", header = TRUE, sep = ",")
 ```
 
