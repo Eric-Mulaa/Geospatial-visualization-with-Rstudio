@@ -409,5 +409,7 @@ ggplot(mag_ef, aes(y = average_fatalities, x = mag)) +
 ```
 
 ![](Tornado-Data-Report_files/figure-gfm/unnamed-chunk-23-1.png)<!-- -->
+
+
 From the above visual it is clear that lower tornado magnitudes are
 associated with lower fatalities and vice verser.
