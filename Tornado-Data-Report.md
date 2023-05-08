@@ -164,6 +164,7 @@ ggplot(yearly_tornadoes, aes(x = yr, y = n)) +
 
 ![](Tornado-Data-Report_files/figure-gfm/unnamed-chunk-7-1.png)<!-- -->
 
+
 From the above data we see that 2004 and the most tornadoes in USA,
 followed by 2011, 2008, and then 2019 for the period between 1950-2021,
 While 1950 had the least number of recorded tornadoes.
@@ -195,6 +196,7 @@ ggplot(monthly_tornadoes, aes(x = abv, y = n)) +
 ```
 
 ![](Tornado-Data-Report_files/figure-gfm/unnamed-chunk-9-1.png)<!-- -->
+
 
 Most tornadoes have been happening in May. We can see that the number of
 tornadoes keep on increasing from January and is at the peak in May,
@@ -283,6 +285,7 @@ plot_usmap(data = states, values = "color", labels = FALSE) +
 ![](Tornado-Data-Report_files/figure-gfm/unnamed-chunk-15-1.png)<!-- -->
 
 
+
 From the above map we can see that the most tornado-prone regions in the
 US is the central and southeastern states along a corridor sometimes
 called “Tornado Alley.”
@@ -366,6 +369,7 @@ plot_usmap(data = state_fatalities, values = "color", labels = FALSE) +
 ```
 
 ![](Tornado-Data-Report_files/figure-gfm/unnamed-chunk-20-1.png)<!-- -->
+
 
 
 Alabama had most fatalities, followed by Texas, Mississippi, and
