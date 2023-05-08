@@ -281,6 +281,8 @@ plot_usmap(data = states, values = "color", labels = FALSE) +
 ```
 
 ![](Tornado-Data-Report_files/figure-gfm/unnamed-chunk-15-1.png)<!-- -->
+
+
 From the above map we can see that the most tornado-prone regions in the
 US is the central and southeastern states along a corridor sometimes
 called “Tornado Alley.”
@@ -310,6 +312,8 @@ ggplot(yearly_fatalities, aes(x = yr, y = total)) +
 ```
 
 ![](Tornado-Data-Report_files/figure-gfm/unnamed-chunk-17-1.png)<!-- -->
+
+
 2011 had the most fatalities
 
 Let see fatalities by states
@@ -362,6 +366,8 @@ plot_usmap(data = state_fatalities, values = "color", labels = FALSE) +
 ```
 
 ![](Tornado-Data-Report_files/figure-gfm/unnamed-chunk-20-1.png)<!-- -->
+
+
 Alabama had most fatalities, followed by Texas, Mississippi, and
 Oklahoma.
 
@@ -389,6 +395,8 @@ ggplot(mag_f, aes(y = average_fatalities, x = mag)) +
 ```
 
 ![](Tornado-Data-Report_files/figure-gfm/unnamed-chunk-22-1.png)<!-- -->
+
+
 It is clear that as tornado magnitude increases, fatalities increase
 too.
 
